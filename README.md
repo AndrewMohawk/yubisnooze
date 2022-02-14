@@ -7,15 +7,11 @@ It will react to the new message in both cases.
 
 # Example
 
-
 https://user-images.githubusercontent.com/1465995/153814518-ab95d8dc-953e-41e4-a64e-2f1f8b73eae9.mov
 
 # Updated example with invalidating token
 
-
-https://user-images.githubusercontent.com/1465995/153814543-71ff2de6-afa1-4af2-bc2a-66258a8b87af.mov
-
-
+https://user-images.githubusercontent.com/1465995/153815088-94b5f130-95d1-41a5-813d-10b6a2901126.mov
 
 
 # Installation
