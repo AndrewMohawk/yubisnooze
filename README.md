@@ -1,11 +1,21 @@
 # YubiSnooze
-Slack bot to automatically delete yubisneeze / accidental yubikey presses.
+Slack bot to automatically delete yubisneeze / accidental yubikey presses as well as invalidate them against yubico so they cannot be used again.
 
-It will search using the regex `"[cbdefghijklnrtuv]{44}"` and if that is the entire message will replace it with a response. If the token is within a message it will simply just the token with a reaction.
+It will search using the regex ~~`"[cbdefghijklnrtuv]{44}"`~~ `"[cc|vv]{2}[cbdefghijklnrtuv]{42}"` and if that is the entire message will replace it with a response. If the token is within a message it will simply just the token with a reaction.
 
 It will react to the new message in both cases.
 
 # Example
+
+
+https://user-images.githubusercontent.com/1465995/153814518-ab95d8dc-953e-41e4-a64e-2f1f8b73eae9.mov
+
+# Updated example with invalidating token
+
+
+https://user-images.githubusercontent.com/1465995/153814543-71ff2de6-afa1-4af2-bc2a-66258a8b87af.mov
+
+
 
 
 # Installation
